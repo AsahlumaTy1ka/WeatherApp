@@ -1,0 +1,38 @@
+/* Basic styles */
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    color: #007bff;
+}
+
+#cityInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#weatherResult {
+    background-color: #e9ecef;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    #cityInput {
+        font-size: 14px;
+    }
+
+    #weatherResult {
+        font-size: 16px;
+    }
+}
